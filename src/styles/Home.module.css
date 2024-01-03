@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bebas+Neue&family=Inter:wght@600;700;800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oxanium&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&display=swap');
+
+
+body{
+
+    background-color: black;
+}
+
+.logotipo{
+    
+    width: 15%;
+   
+}
+
+.Container_cards{
+text-align: center;
+margin-top: 3%;
+
+
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2%;
+ 
+}
+
+.h1{
+    color: #FFF;
+    margin-top: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    word-spacing: 3px;
+    font-size: clamp(16px, 24px, 28px);
+}
+
+
+
+.Container_cards img{
+    width: 15%;
+
+    cursor: pointer;
+    margin: 2.5%;
+    
+   
+    
+}
+
+.navs{
+ text-align: center;
+ 
+ 
+ 
+}
+
+
+
+
+@media screen and (min-width: 100px) and (max-width: 758px)
+{
+    .logotipo{
+        width: 45%;
+        margin-top: 9%;
+    
+    }
+
+    .h1{
+        font-size: clamp(16px, 22px, 28px);
+        margin-top: 12%;
+
+    }
+
+    .Container_cards img{
+        width: 42%;
+    
+      
+        
+       
+        
+    }
+
+    .Container_cards{
+        text-align: center;
+        margin-top: 15%;
+        
+        
+        
+        }
+
+
+    
+}
